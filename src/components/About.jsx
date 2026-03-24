@@ -43,22 +43,39 @@ const About = () => {
           </motion.div>
           
           <motion.div className="about-image" variants={itemVariants}>
-            <div className="image-wrapper" style={{ position: 'relative', width: '100%', maxWidth: '500px', margin: '0 auto' }}>
-              <div className="code-editor-mock glass-card" style={{ padding: 0, overflow: 'hidden', background: '#1e1e1e' }}>
-                <div className="editor-header" style={{ background: '#2d2d2d', padding: '10px 15px', display: 'flex', gap: '8px' }}>
+            <div className="image-wrapper" style={{ position: 'relative', width: '100%', maxWidth: '550px', margin: '0 auto' }}>
+              <div className="code-editor-mock" style={{ 
+                padding: 0, 
+                overflow: 'hidden', 
+                background: '#1d1f21', 
+                borderRadius: '12px',
+                boxShadow: '0 20px 40px rgba(0,0,0,0.5)',
+                border: '1px solid rgba(255,255,255,0.05)'
+              }}>
+                <div className="editor-header" style={{ 
+                  background: '#282a2e', 
+                  padding: '12px 18px', 
+                  display: 'flex', 
+                  gap: '8px' 
+                }}>
                   <span style={{ width: '12px', height: '12px', borderRadius: '50%', background: '#ff5f56' }}></span>
                   <span style={{ width: '12px', height: '12px', borderRadius: '50%', background: '#ffbd2e' }}></span>
                   <span style={{ width: '12px', height: '12px', borderRadius: '50%', background: '#27c93f' }}></span>
                 </div>
-                <div className="editor-body" style={{ padding: '20px', fontFamily: 'var(--font-code)', fontSize: '0.95rem', overflowX: 'auto', color: '#e2e8f0' }}>
-                  <pre><code><span style={{color:'#c678dd'}}>const</span> <span style={{color:'#e5c07b'}}>developer</span> = {'{'}
-  <span style={{color:'#e06c75'}}>name</span>: <span style={{color:'#98c379'}}>"Munawwar Ali"</span>,
-  <span style={{color:'#e06c75'}}>role</span>: <span style={{color:'#98c379'}}>"Full Stack Developer"</span>,
-  <span style={{color:'#e06c75'}}>experience</span>: <span style={{color:'#98c379'}}>"2+ Years"</span>,
-  <span style={{color:'#e06c75'}}>focus</span>: [<span style={{color:'#98c379'}}>"Backend"</span>, <span style={{color:'#98c379'}}>"Performance"</span>],
-  <span style={{color:'#e06c75'}}>location</span>: <span style={{color:'#98c379'}}>"India"</span>,
-  <span style={{color:'#e06c75'}}>education</span>: <span style={{color:'#98c379'}}>"BCA"</span>
-{'}'};</code></pre>
+                <div className="editor-body" style={{ 
+                  padding: '2rem', 
+                  fontFamily: "'Fira Code', 'Consolas', monospace", 
+                  fontSize: '1.05rem', 
+                  lineHeight: '1.8',
+                  color: '#abb2bf' 
+                }}>
+                  <div><span style={{color:'#c678dd'}}>const</span> <span style={{color:'#e5c07b'}}>developer</span> = {'{'}</div>
+                  <div style={{ paddingLeft: '2rem' }}><span style={{color:'#e06c75'}}>name</span>: <span style={{color:'#98c379'}}>"Munawwar Ali"</span>,</div>
+                  <div style={{ paddingLeft: '2rem' }}><span style={{color:'#e06c75'}}>role</span>: <span style={{color:'#98c379'}}>"Full Stack Developer"</span>,</div>
+                  <div style={{ paddingLeft: '2rem' }}><span style={{color:'#e06c75'}}>focus</span>: [<span style={{color:'#98c379'}}>"Backend"</span>, <span style={{color:'#98c379'}}>"Performance"</span>],</div>
+                  <div style={{ paddingLeft: '2rem' }}><span style={{color:'#e06c75'}}>location</span>: <span style={{color:'#98c379'}}>"India"</span>,</div>
+                  <div style={{ paddingLeft: '2rem' }}><span style={{color:'#e06c75'}}>education</span>: <span style={{color:'#98c379'}}>"BCA"</span></div>
+                  <div>{'}'};</div>
                 </div>
               </div>
             </div>
