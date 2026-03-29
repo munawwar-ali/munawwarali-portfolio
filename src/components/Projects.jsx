@@ -5,8 +5,8 @@ const Projects = () => {
   const projects = [
     {
       title: "Multi-Tenant SaaS Billing Platform",
-      description: "Built multi-tenant SaaS billing platform with tenant isolation, JWT authentication, usage-based rate limiting, and automated invoice generation. Deployed full-stack solution with Next.js dashboard on Vercel featuring real-time usage tracking and role-based access control.",
-      tech: ["Node.js", "Express", "MongoDB", "Next.js", "JWT"],
+      description: "Built multi-tenant SaaS billing platform with tenant isolation, JWT authentication, usage-based rate limiting, and automated invoice generation. Deployed full-stack solution with React.js (Vite-based) dashboard on Vercel featuring real-time usage tracking and role-based access control.",
+      tech: ["Node.js", "React.js", "Express", "MongoDB", "JWT"],
       link: "https://billing-dashboard-n4j6.vercel.app/",
       icon: <FaExternalLinkAlt />
     },
