@@ -11,7 +11,7 @@ const Projects = () => {
       icon: <FaExternalLinkAlt />
     },
     {
-      title: "Real-time Leaderboard API",
+      title: "RankForge Engine",
       description: "Built high-performance leaderboard API using Redis sorted sets achieving O(log N) complexity and sub-10ms response time for 1M+ players (vs 500ms with MongoDB alone).",
       tech: ["Node.js", "Redis", "MongoDB", "Docker", "TypeScript"],
       link: "https://github.com/munawwar-ali/realtime-leaderboard-api",
